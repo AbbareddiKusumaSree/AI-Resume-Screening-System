@@ -15,38 +15,62 @@ Objective
 To build an end-to-end AI application that:
 
 Extracts text from resume PDFs
+
+
 Applies NLP preprocessing
+
 Computes resume-job similarity score
+
 Performs skill gap analysis
+
 Displays results in an interactive dashboard
 
 Machine Learning Concepts Used
 
 Natural Language Processing (NLP)
+
+
 Text Cleaning & Stopword Removal
+
 TF-IDF (Term Frequency – Inverse Document Frequency)
+
 Cosine Similarity
+
 Vector Space Modeling
+
 Skill Gap Analysis
 
 Features
 
 Resume PDF text extraction using pdfplumber
+
+
 NLP-based text preprocessing using NLTK
+
 ATS compatibility score calculation
+
 Matched skills identification
+
 Missing skills detection
+
 Interactive Streamlit dashboard
+
 Visual score representation
 
 Tech Stack
 
 Python
+
 scikit-learn
+
 NLTK
+
 pdfplumber
+
 Streamlit
+
 Pandas
+
 NumPy
 
 Project Structure
@@ -67,44 +91,72 @@ AI_Resume_Intelligence_System/
 How It Works
 
 User uploads a Resume (PDF).
+
+
 User pastes a Job Description.
+
 System extracts text from the resume.
+
 Text is cleaned using NLP preprocessing.
+
 TF-IDF converts text into numerical vectors.
+
 Cosine similarity computes ATS compatibility score.
+
+
 Skill gap analysis identifies missing skills.
+
 Results are displayed in the Streamlit dashboard.
 
  How to Run Locally
 
 1️ Clone Repository
+
 git clone https://github.com/yourusername/AI-Resume-Screening-System.git
+
 cd AI-Resume-Screening-System
+
 2️ Install Dependencies
+
 pip install -r requirements.txt
+
 3️ Run Application
+
 streamlit run app.py
 
 📌 Sample Use Case
 
 Upload your resume.
+
 Paste a Machine Learning job description.
+
 Get:
+
 ATS Match Percentage
+
 Matched Skills
+
 Missing Skills
 
 
 Learning Outcomes
 
+
 Through this project, I gained hands-on experience in:
+
 Applying NLP techniques to real-world problems
+
 Implementing TF-IDF and cosine similarity
+
 Building end-to-end ML applications
+
 Deploying interactive apps using Streamlit
+
 Structuring modular Python projects
 
+
 Author
+
 
 Abbareddi Kusuma Sree
 B.Tech – Information Technology
