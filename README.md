@@ -3,57 +3,23 @@ AI Resume Screening & ATS Analyzer
 Live Demo Link: https://ai-resume-screening-system-5dy2cbbqehh8e6iq7hmdm8.streamlit.app/
 
 
+AI Resume Screening and ATS Analyzer
 Overview
 
-AI Resume Screening and ATS Analyzer is a Natural Language Processing based Machine Learning application that evaluates how well a resume matches a given job description.
+This project is a Machine Learning based Resume Screening System that evaluates how well a resume matches a given job description.
 
-The system extracts text from PDF resumes, preprocesses it using NLP techniques, converts the text into numerical vectors using TF-IDF, and computes similarity using cosine similarity to generate an ATS compatibility score.
+The system extracts text from resume PDFs, applies Natural Language Processing techniques, and calculates an ATS compatibility score using TF-IDF and cosine similarity.
 
-This tool helps job seekers identify missing skills and improve their resumes to increase their chances of passing Applicant Tracking Systems.
+It also identifies matched and missing skills to help improve the resume.
 
 Objective
 
-The objective of this project is to build an end-to-end AI application that:
+The objective of this project is to:
+Extract text from resume PDF. Preprocess text using NLP. Convert text into numerical vectors. Compute similarity between resume and job description. Generate an ATS match percentage. Identify missing skills.
 
-Extracts text from resume PDFs
+Machine Learning Techniques Used
 
-Applies NLP preprocessing
-
-Computes resume and job description similarity
-
-Generates an ATS compatibility score
-
-Identifies matched and missing skills
-
-Displays results using an interactive dashboard
-
-Machine Learning Concepts Used
-
-Natural Language Processing
-
-Text Cleaning and Stopword Removal using NLTK
-
-TF-IDF Vectorization
-
-Cosine Similarity
-
-Vector Space Modeling
-
-Skill Gap Analysis
-
-Features
-
-Resume PDF text extraction
-
-NLP based preprocessing
-
-ATS compatibility score calculation
-
-Matched skills identification
-
-Missing skills detection
-
-Interactive Streamlit dashboard
+Natural Language Processing (NLP). Stopword Removal (NLTK). TF-IDF Vectorization. Cosine Similarity. Skill Gap Analysis
 
 Tech Stack
 
@@ -93,45 +59,28 @@ README.md
 
 How It Works
 
-User uploads a resume in PDF format.
+Upload Resume (PDF)
 
-User pastes a job description.
+Paste Job Description
 
-The system extracts and cleans the text.
+System processes and cleans text. TF-IDF converts text into vectors. Cosine similarity calculates ATS score. Displays matched and missing skills
 
-TF-IDF converts the text into numerical vectors.
+How to Run
 
-Cosine similarity computes the ATS score.
+Install dependencies:
 
-Skill gap analysis identifies missing skills.
-
-Results are displayed on the dashboard.
-
-How to Run the Project
-
-Clone the repository
-git clone https://github.com/yourusername/AI-Resume-Screening-System.git
-
-Install dependencies
 pip install -r requirements.txt
 
-Run the application
+Run the application:
+
 streamlit run app.py
 
 Learning Outcomes
 
-Applied NLP techniques to real-world text data
+Applied NLP techniques to real-world data
 
 Implemented TF-IDF and cosine similarity
 
-Built an end-to-end machine learning application
+Built an end-to-end ML application
 
-Developed and deployed an interactive Streamlit app
-
-Structured a modular Python project
-
-Author
-
-A.Kusuma Sree
-B.Tech Information Technology
-
+Developed a deployable Streamlit app
