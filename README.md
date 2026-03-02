@@ -132,6 +132,6 @@ Structured a modular Python project
 
 Author
 
-Your Name
+A.Kusuma Sree
 B.Tech Information Technology
-Machine Learning and Data Science Enthusi
+
