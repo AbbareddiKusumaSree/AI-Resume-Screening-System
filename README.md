@@ -2,37 +2,38 @@ AI Resume Screening & ATS Analyzer
 
 Live Demo Link: https://ai-resume-screening-system-5dy2cbbqehh8e6iq7hmdm8.streamlit.app/
 
+
 Overview
 
-AI Resume Screening & ATS Analyzer is an NLP-based Machine Learning application that evaluates how well a resume matches a given job description.
+AI Resume Screening and ATS Analyzer is a Natural Language Processing based Machine Learning application that evaluates how well a resume matches a given job description.
 
-The system extracts text from PDF resumes, preprocesses it using Natural Language Processing techniques, converts text into numerical vectors using TF-IDF, and computes similarity using cosine similarity to generate an ATS compatibility score.
+The system extracts text from PDF resumes, preprocesses it using NLP techniques, converts the text into numerical vectors using TF-IDF, and computes similarity using cosine similarity to generate an ATS compatibility score.
 
-This tool helps job seekers identify missing skills and improve their resumes to increase the chances of passing Applicant Tracking Systems (ATS).
+This tool helps job seekers identify missing skills and improve their resumes to increase their chances of passing Applicant Tracking Systems.
 
 Objective
 
-To build an end-to-end AI application that:
+The objective of this project is to build an end-to-end AI application that:
 
 Extracts text from resume PDFs
 
-
 Applies NLP preprocessing
 
-Computes resume-job similarity score
+Computes resume and job description similarity
 
-Performs skill gap analysis
+Generates an ATS compatibility score
 
-Displays results in an interactive dashboard
+Identifies matched and missing skills
+
+Displays results using an interactive dashboard
 
 Machine Learning Concepts Used
 
-Natural Language Processing (NLP)
+Natural Language Processing
 
+Text Cleaning and Stopword Removal using NLTK
 
-Text Cleaning & Stopword Removal
-
-TF-IDF (Term Frequency – Inverse Document Frequency)
+TF-IDF Vectorization
 
 Cosine Similarity
 
@@ -42,10 +43,9 @@ Skill Gap Analysis
 
 Features
 
-Resume PDF text extraction using pdfplumber
+Resume PDF text extraction
 
-
-NLP-based text preprocessing using NLTK
+NLP based preprocessing
 
 ATS compatibility score calculation
 
@@ -54,8 +54,6 @@ Matched skills identification
 Missing skills detection
 
 Interactive Streamlit dashboard
-
-Visual score representation
 
 Tech Stack
 
@@ -75,88 +73,65 @@ NumPy
 
 Project Structure
 
-AI_Resume_Intelligence_System/
-│
-├── src/
-│   ├── parser.py
-│   ├── preprocessing.py
-│   ├── skill_extraction.py
-│   ├── ats_engine.py
-│   └── recommendation_engine.py
-│
-├── app.py
-├── requirements.txt
-└── README.md
+AI_Resume_Intelligence_System
+
+src
+
+parser.py
+
+preprocessing.py
+
+skill_extraction.py
+
+ats_engine.py
+
+recommendation_engine.py
+
+app.py
+requirements.txt
+README.md
 
 How It Works
 
-User uploads a Resume (PDF).
+User uploads a resume in PDF format.
 
+User pastes a job description.
 
-User pastes a Job Description.
+The system extracts and cleans the text.
 
-System extracts text from the resume.
+TF-IDF converts the text into numerical vectors.
 
-Text is cleaned using NLP preprocessing.
-
-TF-IDF converts text into numerical vectors.
-
-Cosine similarity computes ATS compatibility score.
-
+Cosine similarity computes the ATS score.
 
 Skill gap analysis identifies missing skills.
 
-Results are displayed in the Streamlit dashboard.
+Results are displayed on the dashboard.
 
- How to Run Locally
+How to Run the Project
 
-1️ Clone Repository
-
+Clone the repository
 git clone https://github.com/yourusername/AI-Resume-Screening-System.git
 
-cd AI-Resume-Screening-System
-
-2️ Install Dependencies
-
+Install dependencies
 pip install -r requirements.txt
 
-3️ Run Application
-
+Run the application
 streamlit run app.py
-
-📌 Sample Use Case
-
-Upload your resume.
-
-Paste a Machine Learning job description.
-
-Get:
-
-ATS Match Percentage
-
-Matched Skills
-
-Missing Skills
-
 
 Learning Outcomes
 
+Applied NLP techniques to real-world text data
 
-Through this project, I gained hands-on experience in:
+Implemented TF-IDF and cosine similarity
 
-Applying NLP techniques to real-world problems
+Built an end-to-end machine learning application
 
-Implementing TF-IDF and cosine similarity
+Developed and deployed an interactive Streamlit app
 
-Building end-to-end ML applications
-
-Deploying interactive apps using Streamlit
-
-Structuring modular Python projects
-
+Structured a modular Python project
 
 Author
 
-
-Abbareddi Kusuma Sree
-B.Tech – Information Technology
+Your Name
+B.Tech Information Technology
+Machine Learning and Data Science Enthusi
